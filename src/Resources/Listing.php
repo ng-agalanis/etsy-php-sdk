@@ -295,7 +295,7 @@ class Listing extends Resource {
     return self::request(
       "PATCH",
       "/application/shops/{$shop_id}/listings/{$listing_id}",
-      "ListingProperty",
+      "Listing",
       $data
     );
   }
